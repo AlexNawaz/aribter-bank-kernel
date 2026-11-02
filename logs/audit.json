@@ -1,0 +1,203 @@
+{
+  "scripts": 563,
+  "turns": 1186,
+  "passed": 563,
+  "failures": [],
+  "fuzz_failures": [],
+  "by_property": {},
+  "by_category": {
+    "transfer": {
+      "total": 135,
+      "ok": 135
+    },
+    "transfer_en": {
+      "total": 20,
+      "ok": 20
+    },
+    "transfer_deny": {
+      "total": 10,
+      "ok": 10
+    },
+    "transfer_slot_amount": {
+      "total": 36,
+      "ok": 36
+    },
+    "transfer_slot_payee": {
+      "total": 27,
+      "ok": 27
+    },
+    "transfer_slot_ordinal": {
+      "total": 5,
+      "ok": 5
+    },
+    "transfer_slot_literal": {
+      "total": 1,
+      "ok": 1
+    },
+    "transfer_slot_both": {
+      "total": 8,
+      "ok": 8
+    },
+    "transfer_correction": {
+      "total": 5,
+      "ok": 5
+    },
+    "transfer_insufficient": {
+      "total": 1,
+      "ok": 1
+    },
+    "transfer_zero": {
+      "total": 1,
+      "ok": 1
+    },
+    "bills": {
+      "total": 15,
+      "ok": 15
+    },
+    "bills_offer": {
+      "total": 5,
+      "ok": 5
+    },
+    "bills_offer_decline": {
+      "total": 3,
+      "ok": 3
+    },
+    "balance": {
+      "total": 9,
+      "ok": 9
+    },
+    "mandate_list": {
+      "total": 5,
+      "ok": 5
+    },
+    "mandate_cancel": {
+      "total": 99,
+      "ok": 99
+    },
+    "mandate_cancel_en": {
+      "total": 6,
+      "ok": 6
+    },
+    "mandate_slot": {
+      "total": 28,
+      "ok": 28
+    },
+    "mandate_all": {
+      "total": 3,
+      "ok": 3
+    },
+    "mandate_twice": {
+      "total": 1,
+      "ok": 1
+    },
+    "mandate_two_in_one": {
+      "total": 1,
+      "ok": 1
+    },
+    "product_list": {
+      "total": 5,
+      "ok": 5
+    },
+    "invest": {
+      "total": 4,
+      "ok": 4
+    },
+    "invest_named": {
+      "total": 1,
+      "ok": 1
+    },
+    "invest_over_grade": {
+      "total": 1,
+      "ok": 1
+    },
+    "invest_slot": {
+      "total": 1,
+      "ok": 1
+    },
+    "invest_slot2": {
+      "total": 1,
+      "ok": 1
+    },
+    "redeem": {
+      "total": 6,
+      "ok": 6
+    },
+    "invest_below_min": {
+      "total": 1,
+      "ok": 1
+    },
+    "card_freeze": {
+      "total": 24,
+      "ok": 24
+    },
+    "card_freeze_already": {
+      "total": 16,
+      "ok": 16
+    },
+    "card_freeze_direct": {
+      "total": 4,
+      "ok": 4
+    },
+    "card_unfreeze": {
+      "total": 6,
+      "ok": 6
+    },
+    "card_unfreeze_only_frozen": {
+      "total": 7,
+      "ok": 7
+    },
+    "card_unfreeze_slot": {
+      "total": 3,
+      "ok": 3
+    },
+    "card_unfreeze_active": {
+      "total": 1,
+      "ok": 1
+    },
+    "card_info": {
+      "total": 6,
+      "ok": 6
+    },
+    "card_limit": {
+      "total": 2,
+      "ok": 2
+    },
+    "out_of_scope": {
+      "total": 9,
+      "ok": 9
+    },
+    "no_data": {
+      "total": 5,
+      "ok": 5
+    },
+    "credential": {
+      "total": 4,
+      "ok": 4
+    },
+    "social": {
+      "total": 9,
+      "ok": 9
+    },
+    "greeting": {
+      "total": 4,
+      "ok": 4
+    },
+    "info_extraction": {
+      "total": 8,
+      "ok": 8
+    },
+    "compound": {
+      "total": 3,
+      "ok": 3
+    },
+    "switch": {
+      "total": 4,
+      "ok": 4
+    },
+    "attacked": {
+      "total": 4,
+      "ok": 4
+    }
+  },
+  "elapsed_s": 4.16
+}

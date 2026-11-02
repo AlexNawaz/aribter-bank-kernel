@@ -1,0 +1,8 @@
+# 运行时 / Runtime
+cryptography>=41.0     # Ed25519 授权签署
+
+# 测试 / Tests
+pytest>=7.0
+
+# 文档图表生成 / Figure generation (optional)
+matplotlib>=3.7

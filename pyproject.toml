@@ -1,0 +1,16 @@
+[project]
+name = "arbiter-bank"
+version = "1.0.0"
+description = "银行 AI 智能体 — an AI banking agent that treats its own language model as hostile"
+requires-python = ">=3.11"
+dependencies = ["cryptography>=41.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0", "matplotlib>=3.7"]
+
+[project.scripts]
+arbiter = "arbiter.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

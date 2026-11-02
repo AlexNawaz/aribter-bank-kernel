@@ -1,0 +1,3347 @@
+{
+  "corpus": 346,
+  "first_run": {
+    "盲测四": {
+      "passed": 63,
+      "total": 72
+    },
+    "盲测五": {
+      "passed": 64,
+      "total": 71
+    },
+    "盲测六": {
+      "passed": 75,
+      "total": 81
+    }
+  },
+  "first_run_total": {
+    "passed": 202,
+    "total": 224
+  },
+  "sets": [
+    {
+      "label": "调参用",
+      "rules_only": 0.9538,
+      "total": 65,
+      "passed": 65,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 62,
+          "ok": 62
+        },
+        "similar": {
+          "total": 3,
+          "ok": 3
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "我要给房东打钱",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "房租该给了，帮我弄一下",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.484,
+          "ok": true
+        },
+        {
+          "text": "把四千五划给王建国",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "给我妈那边送点钱过去",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个月的水电该缴了",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.313,
+          "ok": true
+        },
+        {
+          "text": "帮我打一笔款子出去",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "钱转给房东吧",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想往我妈卡里存点",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "能不能帮我瞧瞧这个月的开销",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个月的花费明细给我瞅瞅",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我这个月是不是花太多了",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "similar",
+          "confidence": 0.678,
+          "ok": true
+        },
+        {
+          "text": "钱都跑哪去了",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "最近的账目理一理",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "看下我的支出构成",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我花钱都花在什么上面了",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show me what i spent",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "账上还剩几个钱",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我现在手头还有多少",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡里还有钱没",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "看下账户还有多少",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "how much money is left",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想把闲钱拿去投资",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有点余钱想买个产品",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我把钱放到基金里",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "想搞点稳一些的投资",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "i'd like to put money into a fund",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想把买的产品退出来",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "基金不想拿了，卖掉",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把投进去的钱取回来",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你们这儿都卖什么产品",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有什么可以买的理财",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "给我列一下能买的基金",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "麻烦把我的信用卡停掉",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡片好像出问题了有笔消费不是我的",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我的卡可能让人用了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡找不着了赶紧处理一下",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "someone used my card without me",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡找到了，重新开通吧",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把停掉的那张卡恢复",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每天能刷的钱太少了，往上调调",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "单笔的上限改成三千",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每个月都有些莫名其妙的扣款，列出来",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我都开了些什么自动付款",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有哪几项在定期扣钱",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "那个健身房的别再扣了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "视频那个会员我不想续了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把用不上的那几个停掉",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "云盘的扣费关掉吧",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "stop charging me for the gym",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我都存了哪些能转账的人",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "常转的那几个人是谁来着",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "名下总共几张卡来着",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我手里有几张银行卡",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "现在定存利息咋样",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "存钱一年能有多少利息",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "换美元今天什么价",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我攒了多少积分了",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "手机号不用了要换一个",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "登录的密码想重新设",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你都能帮上什么忙",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "说说你会干啥",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "明天要不要带伞",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我看看哪只股票能涨",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "附近有啥好吃的",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你是不是人工智能",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "label": "盲测一",
+      "rules_only": 0.9737,
+      "total": 38,
+      "passed": 38,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 34,
+          "ok": 34
+        },
+        "similar": {
+          "total": 2,
+          "ok": 2
+        },
+        "confirm": {
+          "total": 2,
+          "ok": 2
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "工资到账了没，看一眼",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "户头上现在是什么情况",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "上个月我在吃饭上花了多少",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我理一理这阵子的收支",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "钱像流水一样没了，查查去向",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "房东催房租了，处理一下",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.31,
+          "ok": true
+        },
+        {
+          "text": "给老妈汇两千过去",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "电费单子来了，缴掉",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "confirm",
+          "confidence": 0.279,
+          "ok": true
+        },
+        {
+          "text": "有笔钱要付给王建国",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "闲钱搁着不划算，买点什么吧",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "similar",
+          "confidence": 0.613,
+          "ok": true
+        },
+        {
+          "text": "帮我挑个风险低的产品买了",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "手上那只基金清掉",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把理财里的钱倒回活期",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "能买的产品都有什么",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "理财这块你们提供什么",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我卡被人刷了，快弄",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "信用卡丢外面了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有陌生的扣款记录，先把卡控制住",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "那张冻着的卡放开吧",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡的每日上限太低，提一提",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "confirm",
+          "confidence": 0.236,
+          "ok": true
+        },
+        {
+          "text": "每个月自动划走的都有哪些",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我订了些什么服务在扣钱",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "健身房那个别扣了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "视频网站的会员退掉",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把云盘那笔月费停了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我能往谁那儿转钱",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "手里几张卡来着",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "三年定期什么息",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "今天日元怎么换",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "手机号码要改一下",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你能办哪些事",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "周末会下雨吗",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我订个酒店",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "check my balance please",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "i need to pay my landlord",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "cancel that gym membership",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "my card got used by someone else",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what am i paying for every month",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "label": "盲测二",
+      "rules_only": 0.9429,
+      "total": 35,
+      "passed": 35,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 33,
+          "ok": 33
+        },
+        "similar": {
+          "total": 2,
+          "ok": 2
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "兜里还剩几个子儿",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "余额给我报一下",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这半个月钱都搭在哪了",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想核对一下近期账目",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "吃饭这块花得多不多",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "该给房东打钱了",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "往妈妈账上送三千",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个月的电费还没交呢",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.398,
+          "ok": true
+        },
+        {
+          "text": "有两万块想找个产品放进去",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我买只稳当点的基金",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "基金不想要了，换成现金",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把持有的理财结掉",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你们货架上有什么可买的",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "理财产品都有哪几种",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡像是被盗用了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "钱包连卡一起丢了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把封掉的卡重新打开",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "单笔能刷的太少，往上提",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每月被自动扣的都是些什么",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "similar",
+          "confidence": 0.308,
+          "ok": true
+        },
+        {
+          "text": "按月续费的有几项",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "健身那笔月费别再扣",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把视频会员的续费停了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我的收款名单上都有谁",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "名下总共几张卡",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "五年期的利息是多少",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "港币今天什么价位",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "想把预留号码换掉",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你具体能帮我做些什么",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "明天球赛几点开始",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "推荐部电影看看",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "how much is in my account right now",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "i want to send money to my mum",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show me everything i am subscribed to",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "block my card, it was used without permission",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "break down what i spent this month",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "label": "盲测三",
+      "rules_only": 0.9143,
+      "total": 35,
+      "passed": 35,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 31,
+          "ok": 31
+        },
+        "similar": {
+          "total": 4,
+          "ok": 4
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "卡上这会儿有多少",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "先看看账户还剩什么",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "similar",
+          "confidence": 0.359,
+          "ok": true
+        },
+        {
+          "text": "近一个月的开支列一列",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我都把钱使在什么地方了",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "交通上花了不少吧，看看",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "房租到期了，帮我付掉",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.419,
+          "ok": true
+        },
+        {
+          "text": "给我妈那边转一笔",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "水电费该结了",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.503,
+          "ok": true
+        },
+        {
+          "text": "有三万闲着，找个产品投了",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "买一只保守型的基金",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "理财我不做了，全部赎掉",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把基金里的本金拿回来",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "现在能申购的有哪几只",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "给我报一下在售的理财",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我的卡疑似被别人用了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "出门把卡弄丢了，快冻上",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "之前锁的那张卡开回来",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "刷卡的上限往上抬一点",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每月定时扣走的有哪几笔",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我身上挂着哪些自动付费",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "健身的那项月付取消掉",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "不想再续视频网站的会员了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "similar",
+          "confidence": 0.507,
+          "ok": true
+        },
+        {
+          "text": "能收我转账的都有谁",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我这边一共开了几张卡",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "两年定存的收益是多少",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "英镑现在的牌价",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我要把登录密码重新设一个",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "说说你都能处理什么",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "今晚吃点什么好",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我查下高铁票",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's my current balance",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "i need to transfer money to the landlord",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "stop the monthly charge for the cloud storage",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "someone is using my card, lock it",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "list the funds i can buy",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "label": "盲测四",
+      "rules_only": 0.9167,
+      "total": 72,
+      "passed": 72,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 65,
+          "ok": 65
+        },
+        "similar": {
+          "total": 6,
+          "ok": 6
+        },
+        "confirm": {
+          "total": 1,
+          "ok": 1
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "帮我给王建国汇两千八",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "房东那边的钱今天得打过去",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "给老妈转个五百块零花",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "电费帮我交了吧",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.509,
+          "ok": true
+        },
+        {
+          "text": "transfer two thousand to my mother",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把这个月房租结给房东",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.434,
+          "ok": true
+        },
+        {
+          "text": "我得给李秀兰打点钱",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "pay the landlord this month's rent",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个月的钱是怎么花出去的",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "similar",
+          "confidence": 0.482,
+          "ok": true
+        },
+        {
+          "text": "帮我把十月的消费捋一捋",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "吃吃喝喝花了多少",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "出行那块开销大吗",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "最大的一笔支出是啥",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个月进账多少",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "break down my spending for this month",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "how much did I spend on food",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "活期里还躺着多少钱",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "similar",
+          "confidence": 0.536,
+          "ok": true
+        },
+        {
+          "text": "现在可用余额是多少",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "账户里还有钱吗",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's my current balance",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "闲着的两万块想买点理财",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "给我配一只稳健点的产品，投一万",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我申购那个货币基金",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I want to invest 5000",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把货币基金的钱赎回来",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "理财我想取出来",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "sell my fund",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "现在都有啥理财可以买",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "推荐几款适合我的产品",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "which funds can I buy",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我钱包丢了，卡也在里面",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "赶紧把我的借记卡锁了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有人用我的卡消费，不是我",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "confirm",
+          "confidence": 0.291,
+          "ok": true
+        },
+        {
+          "text": "block my debit card",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "信用卡可以解开了",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "之前冻结的那张卡帮我恢复一下",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "turn my credit card back on",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "借记卡每天的限额提到三万",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "单笔额度太低了，调到八千",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "similar",
+          "confidence": 0.396,
+          "ok": true
+        },
+        {
+          "text": "raise the daily limit on my debit card to 30000",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我名下都有哪些卡",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "信用卡现在是什么状态",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what cards do I have",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每个月自动扣我钱的都有哪些",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我开通了哪些自动续费",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show my direct debits",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "那个视频会员别再续了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "健身卡的扣费给我停了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "网盘的自动续费关掉",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "stop paying for the cloud storage",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我平时转账的人有谁",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "常用收款人列一下",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "定期存款现在几个点",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "similar",
+          "confidence": 0.576,
+          "ok": true
+        },
+        {
+          "text": "今天美元兑人民币多少",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我的信用卡积分有多少",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我订明天去北京的高铁",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "推荐一部好看的电影",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "book me a taxi",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想换个绑定的手机号",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "登录密码怎么改",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把我卡的有效期和背面三位数告诉我",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "刚才收到的短信验证码是多少",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我老婆的账户余额帮我查一下",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把流水导出发到我微信",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's my full card number",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你都会些什么",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个助手能干嘛",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "早上好",
+          "expected": "greeting",
+          "actual": "greeting",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "太感谢了",
+          "expected": "thanks",
+          "actual": "thanks",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "先这样，拜拜",
+          "expected": "bye",
+          "actual": "bye",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "不弄了",
+          "expected": "deny",
+          "actual": "deny",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "没问题，办吧",
+          "expected": "confirm",
+          "actual": "confirm",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "label": "盲测五",
+      "rules_only": 1.0,
+      "total": 71,
+      "passed": 71,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 70,
+          "ok": 70
+        },
+        "similar": {
+          "total": 1,
+          "ok": 1
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "帮我给王建国打4500块房租",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "给我妈转两千",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "交一下电费，320",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "房租该交了，转给房东吧，4500",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "similar",
+          "confidence": 0.774,
+          "ok": true
+        },
+        {
+          "text": "我要汇款",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我付一下房租",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡里还有多少钱",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "查下余额",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我账上还剩多少",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "这个月花了多少钱",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我分析一下账单",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "最近的消费明细给我看看",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "钱都花到哪里去了",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "上个月收支情况怎么样",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我有哪些自动扣费",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "看看我开了哪些会员",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每个月都在扣我什么钱",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把健身房的会员退了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "视频会员不续了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "别再扣云存储的钱了",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "取消星力健身",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "那个视频会员帮我关掉",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有什么理财产品",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "现在能买哪些基金",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "推荐个稳一点的理财",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "买两万安裕纯债",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "投五万到F000455",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我申购一万块的债券基金",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把我的基金赎回",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "理财卖掉",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想把持有的基金全部赎回来",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把卡冻结",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我卡丢了",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "借记卡先锁一下",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "有笔扣款不是我花的",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "信用卡解冻",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡找到了，帮我恢复使用",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把信用卡的冻结解除掉",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "信用卡冻上了，帮我解开",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "卡找到了，把它解冻吧",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把信用卡额度提到5万",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "每天能刷的上限调低一点",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我有几张卡",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "信用卡现在什么状态",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我的收款人有哪些",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "常用联系人给我看看",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "告诉我信用卡的完整卡号",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我的密码是多少",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把验证码发给客服",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "查一下我老公卡里有多少钱",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "把我的账单发到这个邮箱",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "换个手机号",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我要改登录密码",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "现在存款利率多少",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "美元汇率是多少",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我有多少积分",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "明天会下雨吗",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "帮我订张机票",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "推荐一只股票",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "我想买股票",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "能贷款吗",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "讲个笑话",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你好呀",
+          "expected": "greeting",
+          "actual": "greeting",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "谢谢啊",
+          "expected": "thanks",
+          "actual": "thanks",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "好的，没别的了，再见",
+          "expected": "bye",
+          "actual": "bye",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "先这样吧",
+          "expected": "bye",
+          "actual": "bye",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "你能干什么",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "好的",
+          "expected": "confirm",
+          "actual": "confirm",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "确认转账",
+          "expected": "confirm",
+          "actual": "confirm",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "算了不转了",
+          "expected": "deny",
+          "actual": "deny",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "不用了",
+          "expected": "deny",
+          "actual": "deny",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    },
+    {
+      "label": "盲测六",
+      "rules_only": 0.9877,
+      "total": 81,
+      "passed": 81,
+      "accuracy": 1.0,
+      "by_route": {
+        "rule": {
+          "total": 80,
+          "ok": 80
+        },
+        "confirm": {
+          "total": 1,
+          "ok": 1
+        }
+      },
+      "misses": [],
+      "results": [
+        {
+          "text": "send 4500 to my landlord",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "pay my landlord 4500",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I need to pay rent, 4500 to 王建国",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "wire 2000 to my mom",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "can you transfer two thousand to my mother",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "pay the electricity bill, 320",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "give my mum 1000",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "send money to my landlord",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I want to make a transfer",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "transfer 4,500 to the landlord please",
+          "expected": "transfer",
+          "actual": "transfer",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "how much money do I have",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's my balance",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show me my balance",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "how much is in my current account",
+          "expected": "balance",
+          "actual": "balance",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what did I spend this month",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "break down my spending",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show my statement",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "where is all my money going",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "analyse my bills",
+          "expected": "analyse_bills",
+          "actual": "analyse_bills",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what subscriptions do I have",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "list my direct debits",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "which automatic payments are set up",
+          "expected": "list_mandates",
+          "actual": "list_mandates",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "cancel my gym membership",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "stop the video subscription",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "get rid of the cloud storage plan",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I don't want the gym anymore",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "confirm",
+          "confidence": 0.295,
+          "ok": true
+        },
+        {
+          "text": "unsubscribe me from the video membership",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "stop charging me for the gym",
+          "expected": "cancel_mandate",
+          "actual": "cancel_mandate",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what investment products do you have",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show me your wealth products",
+          "expected": "list_products",
+          "actual": "list_products",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "buy 20000 of a low risk fund",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "put 10000 into F000455",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I'd like to invest 50000",
+          "expected": "invest",
+          "actual": "invest",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "sell my fund",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "redeem my investment",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "cash out my fund holdings",
+          "expected": "redeem",
+          "actual": "redeem",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "freeze my card",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "block my debit card",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "lock my card now",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I lost my card",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "someone used my card without permission",
+          "expected": "card_freeze",
+          "actual": "card_freeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "unfreeze my credit card",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "unlock my credit card",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "I found my card, turn it back on",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "reactivate my credit card",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "remove the freeze from my credit card",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "my card is frozen, please lift it",
+          "expected": "card_unfreeze",
+          "actual": "card_unfreeze",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "raise my card limit to 50000",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "lower my daily limit",
+          "expected": "card_limit",
+          "actual": "card_limit",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what cards do I have",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "is my credit card frozen",
+          "expected": "list_cards",
+          "actual": "list_cards",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "who are my saved payees",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "show my payee list",
+          "expected": "list_payees",
+          "actual": "list_payees",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's my card PIN",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "tell me the verification code you just got",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "give me my full card number",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's my wife's balance",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "email my statement to this address",
+          "expected": "sensitive_info",
+          "actual": "sensitive_info",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "change my phone number",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "reset my password",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "update my email address",
+          "expected": "credential",
+          "actual": "credential",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's the deposit interest rate",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's the USD exchange rate today",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "how many reward points do I have",
+          "expected": "no_data",
+          "actual": "no_data",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what's the weather tomorrow",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "book me a flight to Beijing",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "which stock should I buy",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "tell me a joke",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "can I get a loan",
+          "expected": "out_of_scope",
+          "actual": "out_of_scope",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "hi there",
+          "expected": "greeting",
+          "actual": "greeting",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "good morning",
+          "expected": "greeting",
+          "actual": "greeting",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "thanks a lot",
+          "expected": "thanks",
+          "actual": "thanks",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "cheers",
+          "expected": "thanks",
+          "actual": "thanks",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "bye",
+          "expected": "bye",
+          "actual": "bye",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "that's all, goodbye",
+          "expected": "bye",
+          "actual": "bye",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "what can you do",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "help",
+          "expected": "help",
+          "actual": "help",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "yes please",
+          "expected": "confirm",
+          "actual": "confirm",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "go ahead",
+          "expected": "confirm",
+          "actual": "confirm",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "no thanks",
+          "expected": "deny",
+          "actual": "deny",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        },
+        {
+          "text": "never mind",
+          "expected": "deny",
+          "actual": "deny",
+          "route": "rule",
+          "confidence": 1.0,
+          "ok": true
+        }
+      ]
+    }
+  ]
+}
